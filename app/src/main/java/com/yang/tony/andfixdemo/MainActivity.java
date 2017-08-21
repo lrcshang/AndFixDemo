@@ -48,6 +48,6 @@ public class MainActivity extends Activity {
     int i=10;
     int a=0;
     private void toast() {
-        Toast.makeText(this, "shit:"+10, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "shit:"+i/a, Toast.LENGTH_SHORT).show();
     }
 }
